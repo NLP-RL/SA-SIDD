@@ -9,6 +9,25 @@ Automatic disease diagnosis has gained immense popularity and demand over the pa
 
 ### Full Paper: https://ieeexplore.ieee.org/document/10017134
 
+### Experiments
+
+For DQN based dialogue agents :
+
+	dqn_type = DQN
+
+For DDQN based dialogue agents :
+
+	dqn_type = DoubleDQN
+
+#### For Training
+
+  main file  : /src/dialogue_system/run/run.py
+
+  python run.py
+
+#### For Testing
+
+	run_for_test.py
 
 ### Citation Information 
 If you find this code useful in your research, please consider citing:
